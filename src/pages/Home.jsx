@@ -3,6 +3,9 @@ import styles from './Home.module.css'
 function Home({ onPlay }) {
   return (
     <main className={styles.page}>
+      <div style={{ color: 'white', fontSize: '2rem', marginBottom: '2rem' }}>
+        Test: App is loading!
+      </div>
       <section className={styles.hero}>
         <div className={styles.card}>
           <h1 className={styles.title}>Subway Surfer</h1>
